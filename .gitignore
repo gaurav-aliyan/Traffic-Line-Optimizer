@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Project Specific
+# ==========================================
+
+# Input and output data
+input/
+output/
+sample_data/
+
+# Excel & CSV files (contains client data)
+*.xlsx
+*.csv
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
